@@ -46,4 +46,9 @@ class Blockchain:
                 new_proof += 1
         return new_proof
     
+    def hash(self, block):
+        encode_block = json.dumps(block, sort_keys = True).encode()
+        return hashlib.sha256(encode_block).hexdigest()
+    
+    
 # Parte 2 - Minado de un bloque de la cadena
