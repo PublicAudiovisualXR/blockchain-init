@@ -2,7 +2,7 @@
 """
 Created on Wed Dec  8 09:00:05 2021
 
-@author: jordi
+@author: jordi_Martos_by_PublicAudiovisual_XR
 """
 
 # Módulo 1 Crear una cadena de bloques Blockchain
