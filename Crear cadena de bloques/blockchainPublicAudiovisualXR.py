@@ -44,5 +44,6 @@ class Blockchain:
                 check_proof = True
             else:
                 new_proof += 1
-                
+        return new_proof
+    
 # Parte 2 - Minado de un bloque de la cadena
