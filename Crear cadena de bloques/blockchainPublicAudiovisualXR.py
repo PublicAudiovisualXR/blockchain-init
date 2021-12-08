@@ -87,7 +87,7 @@ def mine_block():
                 'timestamp' : block['timestamp'],
                 'proof' : block['proof'],
                 'previous_hash' : block['previous_hash']}
-    return jsonify(response)
+    return jsonify(response), 200
 
 
 
